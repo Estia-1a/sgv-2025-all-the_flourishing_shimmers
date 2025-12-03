@@ -1,21 +1,31 @@
+.header{    background-color: rgb(255, 178, 63);
+    height: 100%;
+
+}
+
 .container {
   border: 2px solid black;
   width: 100%;
   height: auto;
-  margin: 20px 10px;}
+  margin: 0 0;}
 .container img{
-    height: auto;
+    height: 250px;
    
 }
 
 .footer {
-
-    height: 20%;
+    background-color: white;
+    height: 20auto;
     border: 2px solid black;
-    margin: 20px auto;}
-
+    margin: 20px auto;
+}
+.html,body{
+    margin: 0;
+    padding: 0;
+}
 .Information {
-    margin: 10px 10px;
+    background-color:rgb(228, 228, 228);
+    margin: 0 0;
     width: max-content;
     height: 20%;
     border: 2px solid black;

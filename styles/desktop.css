@@ -13,7 +13,7 @@ html, body {
     padding: 0;
 }
 
- header {
+header {
     background-image: url('apart.jpg'); 
     background-size: cover;
     background-position: center; 

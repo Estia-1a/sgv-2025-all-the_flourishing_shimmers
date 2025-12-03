@@ -1,3 +1,6 @@
+.header{    background-color: rgb(255, 178, 63);
+
+}
 
 .container {
   border: 2px solid black;
@@ -10,12 +13,14 @@
 }
 
 .footer {
-
-    height: 20%;
+    background-color: white;
+    height: 20auto;
     border: 2px solid black;
-    margin: 20px auto;}
+    margin: 20px auto;
+}
 
 .Information {
+    background-color:rgb(228, 228, 228);
     margin: 10px 10px;
     width: max-content;
     height: 20%;

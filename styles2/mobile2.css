@@ -1,3 +1,22 @@
-.body{
-    background-color: cyan;
+.container {
+  border: 2px solid black;
+  width: 100%;
+  height: auto;
+  margin: 20px 10px;}
+.container img{
+    height: auto;
+   
 }
+
+.footer {
+
+    height: 20%;
+    border: 2px solid black;
+    margin: 20px auto;}
+
+.Information {
+    margin: 10px 10px;
+    width: max-content;
+    height: 20%;
+    border: 2px solid black;
+    }

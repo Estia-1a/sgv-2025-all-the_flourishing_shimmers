@@ -1,5 +1,5 @@
 header img {
-   
+    margin: 5px ;
     width: 10em;
     height: 10em;
     padding-left: 2em;
@@ -14,6 +14,7 @@ header img {
     height: 500px;  
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: 2em;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }

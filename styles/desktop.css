@@ -17,7 +17,7 @@ header {
     background-image: url('apart.jpg'); 
     background-size: cover;
     background-position: center; 
-    height: 500px;  
+    height: flex ;  
     display: flex;
     color:white;
     font-size: 2em;

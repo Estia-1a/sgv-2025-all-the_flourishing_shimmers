@@ -20,7 +20,6 @@ html, body {
     height: 500px;  
     display: flex;
     color:white;
-    justify-content: center;
     font-size: 2em;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;

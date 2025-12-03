@@ -1,0 +1,19 @@
+header img {
+   
+    width: 10em;
+    height: 10em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+ header {
+    background-image: url('apart.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 500px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}

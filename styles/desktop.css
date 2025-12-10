@@ -8,14 +8,17 @@ header img {
 }
 
 .bu {
-
+    justify-content: center;
 }
 .tu {
-
+    justify-content: center;
+    align-content: center;
 }
 
 .tu button {
-
+    width: 110px;
+    height: 50px;
+    justify-content: center;
 }
 
 

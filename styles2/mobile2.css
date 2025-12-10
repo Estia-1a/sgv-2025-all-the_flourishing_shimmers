@@ -13,7 +13,7 @@
    
 }
 
-.footer {
+.Equipement {
     background-color: white;
     height: 20auto;
     border: 2px solid black;
@@ -23,7 +23,7 @@
     margin: 0;
     padding: 0;
 }
-.Information {
+.Atout {
     background-color:rgb(228, 228, 228);
     margin: 0 0;
     width: max-content;

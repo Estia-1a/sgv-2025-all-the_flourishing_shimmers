@@ -2,22 +2,31 @@
     height: 100%;}
 .Content{
     float: left;
-    margin: 20px 10px;
+    margin: 20px 0;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 
 }
 
 .Payement{
     float: right;
-    margin: 20px 10px;
+    height: 50%;
+    margin: 20px 0;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 }
 
 
 .container {
   background-image:
   linear-gradient(rgba(0, 0, 255, 0.5), rgba(116, 222, 251, 0.5)),
-  url("/media/pictures/logo.svg");
+  url("/media/pictures/logo2.svg");
   border: 2px solid black;
   width: 100%;
   height: auto;
@@ -50,13 +59,16 @@
 
 .Modalite {
     background-color:white;
-    margin: 10px 0;
+    margin: 30px 50px;
     width: 400px;
     height:40%;
     border: 2px solid black;
     }
 
 .styled {
+   
+    width: 40%;
+    margin: 10px 30px;
     float: right;
   border: 0;
   line-height: 2.5;

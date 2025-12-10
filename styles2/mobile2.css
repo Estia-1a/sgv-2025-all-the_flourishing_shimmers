@@ -1,35 +1,43 @@
 .header{ 
     height: 100%;}
 .Content{
-    float: left;
-    margin: 20px 10px;
-    width: 50%;
+    display: flex;
+    margin: 0px 10px;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .Payement{
-    float: right;
-    margin: 20px 10px;
-    width: 40%;
+    display: flex;
+    margin: 0px 10px;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 .container {
+    display:
+
   background-image:
   linear-gradient(rgba(0, 0, 255, 0.5), rgba(116, 222, 251, 0.5)),
   url("/media/pictures/logo.svg");
-  border: 2px solid black;
-  width: 100%;
-  height: auto;
-  margin: 0 0;}
+  border:2px solid black;
+  width:auto;
+  height:auto;
+  margin:0 0;}
+
 .container img{
-    margin: 0 60px;
-    height: 250px;
+    margin: 0 10px;
+    height: 90px;
+
    
 }
 
 .Equipement {
-    width: 50%;
+    width: 350px;
     background-color: white;
     height: 50%;
     border: 2px solid black;
@@ -43,7 +51,7 @@
 .Atout {
     background-color:white;
     margin: 10px 0;
-    width: 400px;
+    width: 350px;
     height:40%;
     border: 2px solid black;
     }
@@ -51,13 +59,13 @@
 .Modalite {
     background-color:white;
     margin: 10px 0;
-    width: 400px;
+    width: 350px;
     height:40%;
     border: 2px solid black;
     }
 
 .styled {
-    float: right;
+    width: 300px;
   border: 0;
   line-height: 2.5;
   padding: 0 20px;
@@ -66,7 +74,7 @@
   color: white;
   text-shadow: 1px 1px 1px black;
   border-radius: 10px;
-  background-color: rgb(235, 235, 235);
+  background-color: rgba(235, 235, 235, 0.141);
   background-image: linear-gradient(
     to top left,
     rgb(0 0 0 / 0.2),
@@ -79,7 +87,7 @@
 }
 
 .styled:hover {
-  background-color: rgb(130, 127, 127);
+  background-color: rgb(252, 252, 252);
 }
 
 .styled:active {

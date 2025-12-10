@@ -7,6 +7,24 @@ header img {
 
 }
 
+button {
+    display: flex;
+    width: 110px;
+    height: 50px;
+    background: #4CAF50;
+    color: #fff;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+    float:right;
+    font-size: 20px; 
+    font-weight: bold;
+
+    
+}
+
+
 
 html, body {
     margin: 0;
@@ -17,7 +35,7 @@ header {
     background-image: url('apart.jpg'); 
     background-size: cover;
     background-position: center; 
-    height: 40% ;  
+    height: 500px;  
     display: flex;
     color:white;
     font-size: 2em;

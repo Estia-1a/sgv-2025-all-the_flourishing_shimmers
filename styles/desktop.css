@@ -8,13 +8,16 @@ header img {
 }
 
 .bu {
-    justify-content: flex-end;
-    align-items: center;
+    display: flex;
+    
+    
 }
 .tu {
-
+  display: flex;
+    width: 110px;
+    height: 50px;
 }
-.tu .bu {
+.bu .tu {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -39,7 +42,6 @@ header img {
     justify-content: flex-end;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    flex-direction: row;
     font-size: 20px; 
     font-weight: bold;
     border-radius: 8px

@@ -1,9 +1,12 @@
-.header{    background-color: rgb(255, 178, 63);
+.header{ 
     height: 100%;
 
 }
 
 .container {
+  background-image:
+  linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  url("/media/pictures/logo.svg");
   border: 2px solid black;
   width: 100%;
   height: auto;
@@ -14,19 +17,29 @@
 }
 
 .Equipement {
+    width: 50%;
     background-color: white;
-    height: 20auto;
+    height: 20%;
     border: 2px solid black;
-    margin: 20px auto;
+    margin: 10px 0px;
 }
 .html,body{
     margin: 0;
     padding: 0;
 }
+
 .Atout {
     background-color:rgb(228, 228, 228);
-    margin: 0 0;
-    width: max-content;
-    height: 20%;
+    margin: 10px 0;
+    width: 50%;
+    height:40%;
+    border: 2px solid black;
+    }
+
+.Modalite {
+    background-color:rgb(228, 228, 228);
+    margin: 10px 0;
+    width: 50%;
+    height:40%;
     border: 2px solid black;
     }

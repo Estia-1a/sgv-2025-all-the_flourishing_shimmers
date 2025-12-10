@@ -6,17 +6,16 @@ header img {
     padding-right: 2em;
 
 }
-.bu {
-    
-}
+
 .tu {
     display: flex;
     flex-direction: row;
-}
-.bu .tu {
-    justify-content: center;
-    align-content: flex-end;
     margin-bottom: 20px;
+    justify-content: center;
+}
+.bu {
+    display: flex;
+    flex-direction: row;
 }
 
 .bu button {
@@ -25,11 +24,16 @@ header img {
     height: 60px;
     background: #4CAF50;
     color: #fff;
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px; 
     font-weight: bold;
     border-radius: 8px ;
+    margin: 1em 1em;
+    margin-left: auto ;
 }
+
 .tu button {
     display: flex;
     width: 120px;
@@ -42,6 +46,7 @@ header img {
     font-size: 20px; 
     font-weight: bold;
     border-radius: 8px ;
+    margin: 0em 1em;
 }
 
 

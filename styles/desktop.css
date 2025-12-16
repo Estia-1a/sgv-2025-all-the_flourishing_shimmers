@@ -21,7 +21,7 @@ header img {
 }
 
 
-.bu button {
+.bu a {
     display: flex;
     width: 120px;
     height: 60px;
@@ -37,7 +37,7 @@ header img {
     margin-left: auto;
 }
 
-.tu button {
+.tu a {
     display: flex;
     width: 120px;
     height: 60px;

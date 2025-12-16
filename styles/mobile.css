@@ -18,7 +18,7 @@ header img {
     flex-direction: row;
 }
 
-.bu a {
+.bu .btn {
     display: flex;
     width: 120px;
     height: 60px;
@@ -34,7 +34,7 @@ header img {
     margin-left: auto ;
 }
 
-.tu a {
+.tu .btn {
     display: flex;
     width: 120px;
     height: 60px;

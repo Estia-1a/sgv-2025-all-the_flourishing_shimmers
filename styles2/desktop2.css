@@ -1,104 +1,86 @@
-.header{ 
-    height: 100%;}
-.Content{
-    float: left;
-    margin: 20px 0;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-
-}
-
-.Payement{
-    float: right;
-    height: 50%;
-    margin: 20px 0;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-}
-
-
-.container {
-  background-image:
-  linear-gradient(rgba(0, 0, 255, 0.5), rgba(116, 222, 251, 0.5)),
-  url("/media/pictures/logo2.svg");
-  border: 2px solid black;
-  width: 100%;
-  height: auto;
-  margin: 0 0;}
-
-.container img{
-    display: flex;
-    flex-direction: row;
-    margin: 0 60px;
-    height: 200px;
-   
-}
-
-.Equipement {
-    width: 50%;
-    background-color: white;
-    height: 50%;
-    border: 2px solid black;
-    margin: 30px 0;
-}
-.html,body{
+/* Style global */
+body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-.Atout {
-    background-color:white;
-    margin: 10px 0;
-    width: 400px;
-    height:40%;
-    border: 2px solid black;
-    }
+/* En-tête reprenant le style de l'index avec le dégradé */
+.container {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(116, 222, 251, 0.5));
+    border-bottom: 2px solid black;
+    padding: 50px 0;
+    text-align: center;
+}
 
-.Modalite {
-    background-color:white;
-    margin: 30px 50px;
-    width: 400px;
-    height:40%;
+/* Images côte à côte sur PC */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    height: 200px;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Structure du contenu en deux colonnes */
+.main-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: #fcfcfc;
+}
+
+.Content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Payement {
+    width: 35%;
+}
+
+.Atout, .Equipement, .Modalite {
+    background-color: white;
     border: 2px solid black;
-    }
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: "✓ ";
+    padding-left: 20px;
+}
 
 .styled {
-   
-    width: 40%;
-    margin: 10px 30px;
-    float: right;
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  border-radius: 10px;
-  background-color: rgb(235, 235, 235);
-  background-image: linear-gradient(
-    to top left,
-    rgb(0 0 0 / 0.2),
-    rgb(0 0 0 / 0.2) 30%,
-    transparent
-  );
-  box-shadow:
-    inset 2px 2px 3px rgb(255 255 255 / 0.6),
-    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: background 0.3s;
 }
 
 .styled:hover {
-  background-color: rgb(130, 127, 127);
-}
-
-.styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgb(255 255 255 / 0.6),
-    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+    background-color: #0056b3;
 }

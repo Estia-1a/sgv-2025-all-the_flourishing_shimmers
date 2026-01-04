@@ -91,3 +91,23 @@ header h1 {
     font-weight: 400;
     color:white;
 }
+.cartes {
+    flex-direction: row;
+}
+.carte {
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    
+}
+
+.sans-image {
+    padding: 15px;
+}
+body{
+    background-color: bisque; 
+}

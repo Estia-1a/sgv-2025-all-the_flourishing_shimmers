@@ -84,3 +84,25 @@ ul {
 .styled:hover {
     background-color: #0056b3;
 }
+.styled-btn {
+    display: block; /* Nécessaire pour qu'un lien accepte des marges et une largeur */
+    width: 100%;
+    box-sizing: border-box; /* Pour que le padding ne dépasse pas de la largeur */
+    padding: 15px;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none; /* Enlève le soulignement du lien */
+    text-align: center; /* Centre le texte */
+    background-color: #007bff;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.styled-btn:hover {
+    background-color: #0056b3;
+    color: white; /* Assure que le texte reste blanc au survol */
+}
